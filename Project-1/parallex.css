@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+    perspective: 10px;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background{
+    transform: translateZ(-40px) scale(5);
+}
+
+.foreground{
+    transform: translateZ(-20px) scale(3);
+}
+
+.background,.foreground{
+    position: absolute;
+    z-index: -1;
+    height: 110%;
+    width: 102%;
+    object-fit: cover;
+}
+
+h1{
+    margin-bottom: 250px;
+    font-size: 4rem;
+    font-family: cursive;
+    color: white;
+}
+
+section{
+    background-color: rgb(45, 45, 45);
+    color: white;
+    padding: 5rem 0;
+}
+
+.bg1{
+    background-image: url(biking.jpg);
+}
+
+.bg2{
+    background-image: url(pgliding.jpg);
+}
+
+.bg3{
+    background-image: url(surfing.jpg);
+}
+
+.secHeading{
+    font-size: 2rem;
+    padding: 0 10rem;
+}
+
+.text{
+    font-size: 1rem;
+    padding: 2rem 5rem;
+    margin: 0.5rem;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        font-size: 2rem;
+    }
+
+    .text{
+        font-size: 0.8rem;
+    }
+    
+}

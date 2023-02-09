@@ -1,0 +1,91 @@
+@media screen and (max-width:1160px) {
+
+    .fadded-text{
+        font-size: 3em;
+        left: 1%;
+    }
+
+    .page-header{
+        font-size: 50px;
+    }
+    .container{
+        width: 1100px;
+        margin: 0 auto;
+    }
+    
+    .skills-logo{
+        width: 50px;
+        height: 50px;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+
+    .skill-fade-text{
+        font-size: 5em;
+        bottom: -4%;
+        right: 0%;
+
+    }
+
+    .project-card{
+        border: 2px solid green;
+        width: 70%;
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        box-shadow: 10px 10px 40px #6e6b6b;
+    }
+
+    .skill-heading{
+        font-size: 30px;
+    }
+
+    .skill-subheading{
+        font-size: 13px;
+    
+    }
+
+    .contact-heading{
+        font-size: 3em;
+    }
+
+    .contact-subheading{
+        font-size: 1.5rem;
+
+    }
+
+    .formfield-container{
+        width: 50em;
+    }
+
+    .formfield{
+        height: 2.5rem;
+    }
+
+    .formfields{
+        border-radius: 10px;
+        padding: 1rem;
+        border: none;
+        box-shadow: 2px 2px 2px rgb(131, 127, 127);
+        height: 9rem;
+    }
+
+    .footer-faded-text{
+        font-size: 4em;
+    }
+
+    .footer-change{
+        margin-left: 200px;
+    }
+}
+
+
+@media screen and (max-width:1100px) {
+    
+}
+
+
+@media screen and (max-width:479px) {
+    
+}
